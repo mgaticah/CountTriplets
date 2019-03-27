@@ -8,5 +8,9 @@ public class Tests{
         long r=5;
         long result=TripletsHelper.countTriplets(list, r);
         Assert.Equal(4,result);
+        r=3;
+        list=new List<long>(){1,3,9,9,27,81};
+        result=TripletsHelper.countTriplets(list, r);
+        Assert.Equal(6,result);
     }
 }

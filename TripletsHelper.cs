@@ -13,36 +13,26 @@ public static class TripletsHelper
             long expectedThird=array[firstIndex]*r*r;
             List<int> secondValuePositions= new List<int>();
             List<int> thirdValuePositions= new List<int>();
-                
             for(int secondIndex=firstIndex+1;secondIndex<array.Length-1;secondIndex++)
             {
                 for(int thirdIndex=secondIndex+1;thirdIndex<array.Length;thirdIndex++)
                 {
-                    if(array[thirdIndex]==expectedThird)
-                        thirdValuePositions.Add(thirdIndex);
+                    if(array[secondIndex]==expectedSecond && array[thirdIndex]==expectedThird)
+                    {
+                        var tripletHash=string.Format("{0}|{1}|{2}",firstIndex,secondIndex,thirdIndex);
+                         if(!triplets.ContainsKey(tripletHash))
+                        {
+                            triplets.Add(tripletHash,1);
+                            Console.WriteLine(tripletHash);
+                        }
+                    }     
                     else if(array[thirdIndex]>expectedThird)
                         break;
                 }
-                if(thirdValuePositions.Count==0)
-                    break;
-                if(array[secondIndex]==expectedSecond)
-                        secondValuePositions.Add(secondIndex);
-                    else if(array[secondIndex]>expectedSecond)
+                if(array[secondIndex]>expectedSecond)
                         break;
             }
-            if(secondValuePositions.Count==0 || thirdValuePositions.Count==0)
-                break;
-            foreach(var second in secondValuePositions)
-                foreach(var third in thirdValuePositions)
-                {
-                    var tripletHash=string.Format("{0}|{1}|{2}",firstIndex,second,third);
-                    if(!triplets.ContainsKey(tripletHash))
-                    {
-                        triplets.Add(tripletHash,1);
-                        Console.WriteLine(tripletHash);
-                    }
-                    
-                }
+            
         }
         return triplets.Count;
 
