@@ -1,0 +1,4 @@
+c:\csharpProjects\hackerrank\CountTriplets\obj\Debug\netcoreapp2.1\CountTriplets.csprojAssemblyReference.cache
+c:\csharpProjects\hackerrank\CountTriplets\obj\Debug\netcoreapp2.1\CountTriplets.csproj.CoreCompileInputs.cache
+c:\csharpProjects\hackerrank\CountTriplets\obj\Debug\netcoreapp2.1\CountTriplets.AssemblyInfoInputs.cache
+c:\csharpProjects\hackerrank\CountTriplets\obj\Debug\netcoreapp2.1\CountTriplets.AssemblyInfo.cs
