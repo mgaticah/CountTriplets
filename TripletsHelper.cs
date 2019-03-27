@@ -19,6 +19,7 @@ public static class TripletsHelper
                 {
                     if(array[secondIndex]==expectedSecond && array[thirdIndex]==expectedThird)
                     {
+                        
                         var tripletHash=string.Format("{0}|{1}|{2}",firstIndex,secondIndex,thirdIndex);
                          if(!triplets.ContainsKey(tripletHash))
                         {
@@ -26,10 +27,11 @@ public static class TripletsHelper
                             Console.WriteLine(tripletHash);
                         }
                     }     
-                    else if(array[thirdIndex]>expectedThird)
-                        break;
+                    else if(array[thirdIndex]>expectedThird )
+                    break;
+                        
                 }
-                if(array[secondIndex]>expectedSecond)
+                if(array[secondIndex]>expectedSecond )
                         break;
             }
             

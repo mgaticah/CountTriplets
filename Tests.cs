@@ -13,4 +13,15 @@ public class Tests{
         result=TripletsHelper.countTriplets(list, r);
         Assert.Equal(6,result);
     }
+    [Fact]
+    public void MassiveTest()
+    {
+    var  list=new List<long>();
+    for(int i=0;i<100000;i++)
+    list.Add(1237);
+
+        long r=1;
+        long result=TripletsHelper.countTriplets(list, r);
+        Assert.Equal(166661666700000,result);
+    }
 }
