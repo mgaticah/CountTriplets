@@ -2,3 +2,13 @@ c:\csharpProjects\hackerrank\CountTriplets\obj\Debug\netcoreapp2.1\CountTriplets
 c:\csharpProjects\hackerrank\CountTriplets\obj\Debug\netcoreapp2.1\CountTriplets.csproj.CoreCompileInputs.cache
 c:\csharpProjects\hackerrank\CountTriplets\obj\Debug\netcoreapp2.1\CountTriplets.AssemblyInfoInputs.cache
 c:\csharpProjects\hackerrank\CountTriplets\obj\Debug\netcoreapp2.1\CountTriplets.AssemblyInfo.cs
+c:\csharpProjects\hackerrank\CountTriplets\bin\Debug\netcoreapp2.1\CountTriplets.deps.json
+c:\csharpProjects\hackerrank\CountTriplets\bin\Debug\netcoreapp2.1\CountTriplets.runtimeconfig.json
+c:\csharpProjects\hackerrank\CountTriplets\bin\Debug\netcoreapp2.1\CountTriplets.runtimeconfig.dev.json
+c:\csharpProjects\hackerrank\CountTriplets\bin\Debug\netcoreapp2.1\CountTriplets.dll
+c:\csharpProjects\hackerrank\CountTriplets\bin\Debug\netcoreapp2.1\CountTriplets.pdb
+c:\csharpProjects\hackerrank\CountTriplets\obj\Debug\netcoreapp2.1\CountTriplets.dll
+c:\csharpProjects\hackerrank\CountTriplets\obj\Debug\netcoreapp2.1\CountTriplets.pdb
+c:\csharpProjects\hackerrank\CountTriplets\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+c:\csharpProjects\hackerrank\CountTriplets\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+c:\csharpProjects\hackerrank\CountTriplets\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
